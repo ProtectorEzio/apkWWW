@@ -1,0 +1,167 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,time, mark, audio, video {
+    margin: 0; 
+    padding: 0; 
+    border: 0; 
+    font-size: 100%; 
+    vertical-align: baseline; 
+    } 
+
+.pageSize{
+    max-width: 1300px;
+    margin:0 auto;
+    position: relative;
+    overflow: hidden;
+    background-color:lightgrey;
+}
+
+.pageSize2{
+    max-width: 1300px;
+    margin:0 auto;
+    position: relative;
+    overflow: hidden;
+}
+
+/*header*/
+
+.logo {
+    max-width:272px;
+    height: 72px;
+    position: relative;
+}
+
+.topMenuLinks {
+    color:#000000;
+    margin:auto auto;
+    font-family: 'Roboto-light', sans-serif;
+    font-size: clamp(16px, 1vw , 20px);
+    margin-bottom:25px;
+    margin-top:10px;
+}
+
+.searchIcon {
+    margin-left:16px;
+    margin-bottom:30px;
+}
+
+
+hr.greenbar {
+    background-color:#2B9F59;
+    height: 8px;
+    margin-top:-23px;
+    widows: 100%;
+}
+
+.buttonMargin {
+    margin-bottom:15px;
+    margin-left:-10px;
+}
+
+/*main*/
+
+h1{
+    color:#000000;
+    text-align:center;
+    font-size:clamp(24px,1vw,30px);
+    font-family: 'Roboto-light', sans-serif;
+}
+h2 {
+    color:#000000;
+    text-align:center;
+    font-size:clamp(22px,1vw,26px);
+    font-family: 'Roboto-light', sans-serif;
+}
+h3 {
+    color:#000000;
+    text-align:center;
+    font-size:clamp(20px,1vw,24px);
+    font-family: 'Roboto-light', sans-serif;
+}
+
+p{
+    color:#000000;
+    margin-left:15px;
+    margin-right:15px;
+    font-size:clamp(16,1vw,20px);
+    font-family: 'Roboto-light', sans-serif;
+    text-align:center;
+}
+
+.info{
+    font-family: 'Roboto-black', sans-serif;
+    position: absolute;
+    left: 30px;
+    bottom: 16px;
+    margin-right:20px;   
+    font-size:clamp(14px,2vw,30px);
+    color:#ffffff;
+    top:10px;
+    right:0;
+}
+
+
+.image {
+    width: 640px;
+    height: 400px;
+}
+
+
+.marginImages{
+    position: relative;
+    margin-bottom:20px;
+}
+
+
+/*footer*/
+
+footer{
+    background-color:#EFEFEF;
+    min-height: 100px;
+    text-align: center;
+    bottom: 0;
+    width:100%;
+
+}
+
+.pageSizeFt{
+    max-width: 1300px;
+    margin:0 auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.fixedfooter{
+    background-color:#EFEFEF;
+    min-height: 100px;
+    text-align: center;
+    position: fixed;
+    left: 310;
+    bottom: 0;
+    width: 1300px;
+    margin:0 auto;
+}
+
+.bottomMenuLinks {
+    position: relative;
+    color:#000000;
+    font-family: 'Roboto-light', sans-serif;
+    font-size:14px;
+    text-align:right;
+    display:inline-flex;
+}
+
+.bottomLinksCont {
+    padding-top:40px;
+    text-align:right;
+}
+.linksMargin {
+    margin-left:15px;
+    margin-right:15px;
+    margin-bottom:15px; 
+}
+.marginSpan {
+    margin-left:50px;
+}
